@@ -6,34 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Project</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,400;1,100&family=Uchen&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="contanier">
-        <div>
-            <h1>NET <SPan>FLIX</SPan> </h1>
+        <header>
+            <h1>NET <SPan id="flıx">FLIX</SPan> </h1>
             <p>Thank you for signing up at Netflix.Tell us more about yourself</p>
-        </div>
-        <div>
-            <div>
-                <label for="isim">Name</label>
-                <input type="text" id="isim" placeholder="Enter your name">
-            </div>
-            <br>
-            <div>
-                <label for="yaş">Age</label>
-                <input type="number" id="yaş" placeholder="Age">
-            </div>
-            <br>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email">
-             </div>
-             <br>
-             <div>
-                <h2>Content type</h2>
-             </div>
 
-        </div>
+        </header>
+           
+        
+        <div class="formlar">
+
+            <form action="">
+            
+           
+                <div class="input">
+                    <label for="isim">Name</label>
+                    <br>
+                    <input type="text" id="isim" placeholder="Enter your name">
+                </div>
+                <br>
+                <div class="input">
+                    <label for="yaş">Age</label>
+                    <br>
+                    <input type="number" id="yaş" placeholder="Age">
+                </div>
+                <br>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Enter your email">
+                 </div>
+                 <br>
+                 <div class="input">
+                    <label for="section">Content Type</label>
+                    <br>
+                    <select name="Filmler" id="section">
+                        <option value="Series" id="series">Series</option>
+                        <option value="movie">movie</option>
+                    </select>
+                 </div>
+                 <div class="input" >
+                    <h2>Movie type</h2>
+                    <input type="checkbox" id="Comedy" name="Comedy">
+                    <label for="Comedy">Comedy</label>
+                    <br>
+                    <input type="checkbox" id="Action" name="Action">
+                    <label for="Action">Action</label>
+                    <br>
+                    <input type="checkbox" id="Romance" name="Romance">
+                    <label for="Romance">Romance</label>
+                 </div>
+                 <div class="input">
+                    <h2>Gender</h2>
+                    <input type="radio" id="Male" name="male" >
+                    <label for="Male">Male</label>
+                    <br>
+                    <input type="radio" id="Female" name="female">
+                    <label for="Female">Female</label>
+                    <br>
+                    <input type="radio" id="Other" name="other">
+                    <label for="Other">Other</label>
+                    
+                 </div>
+                 <div class="input">
+                    <h2>Feed back</h2>
+                    <textarea name="" id="" placeholder="Any comment"></textarea>
+                 </div>
+                 <div class="submit">
+                    <input type="submit"  value="submit">
+                 </div>
+                 
+
+
+
+
+
+
+                </form>
+               
+
+            </div>
+
+        
 
     </div>
     
